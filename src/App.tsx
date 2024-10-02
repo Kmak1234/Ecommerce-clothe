@@ -1,6 +1,6 @@
-import { Header } from "./Header/Header"
+import { Header } from "./components/Header/Header"
 import { Main } from "./Main/Main"
-import { ShopList } from "./ShopList/ShopList"
+import { ShopList } from "./components/ShopList/ShopList"
 
 
 export default function App(){
