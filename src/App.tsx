@@ -1,7 +1,7 @@
 import { Header } from "./components/Header/Header"
 import { Main } from "./Main/Main"
 import { ShopList } from "./components/ShopList/ShopList"
-
+import Title1 from "./components/Titles/Title1"
 
 export default function App(){
   return(
@@ -9,10 +9,13 @@ export default function App(){
     <div className="border-zinc-600	">
       <Header />
       <Main />
+      <Title1 />
+      <div className="flex flex-row">
       <ShopList 
         img="../src/assets/Bag/Bag1.png" 
         text="Classic easy Zipper Tote"
         price="$298 "
+        img2 = "../src/assets/Plus/plus.png"
           />
       <ShopList 
       img="../src/assets/Bag/Bag2.png" 
@@ -27,14 +30,16 @@ export default function App(){
         />
       <ShopList 
         img="../src/assets/Bag/Bag4.png"
-        text="Single Origin Cashmere Beanie"
-        price="$98"
+        //text="Single Origin Cashmere Beanie"
+        //price="$98"
         />
       <ShopList 
         img="../src/assets/Bag/Bag5.png" 
         text="Alpaca Wool Cropped Cardigan"
         price="$248"
         />
+      </div>
+      
     </div>
     </>
   )
