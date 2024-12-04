@@ -2,7 +2,7 @@ import React from 'react'
 
 const Title1 = () => {
   return (
-    <div>What to wear now</div>
+    <>What to wear now</>
   )
 }
 
